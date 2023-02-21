@@ -81,7 +81,6 @@ alias ga="git add"
 alias gf="git fetch"
 alias gp="git pull"
 
-# alias graph="go get github.com/99designs/gqlgen@v0.17.5 && go get github.com/99designs/gqlgen/internal/imports@v0.17.5 && go get github.com/99designs/gqlgen/codegen/config@v0.17.5 && go run github.com/99designs/gqlgen generate"
 alias graph="go run github.com/99designs/gqlgen@v0.17.5 generate"
 
 # ----------------------  External Enviromental variables ----------------------
@@ -92,11 +91,6 @@ alias graph="go run github.com/99designs/gqlgen@v0.17.5 generate"
 # export PATH=$PATH:$GOROOT:$GOPATH
 export GOPATH="$HOME/go"
 export PATH="$PATH:$HOME/go/bin:$GOPATH/bin"
-
-# var related
-export GCP_PROJECT="the-other-312707"
-export GCP_REGION="asia-northeast1"
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 #sql-client
 export LDFLAGS="-L/usr/local/opt/mysql-client/lib"
